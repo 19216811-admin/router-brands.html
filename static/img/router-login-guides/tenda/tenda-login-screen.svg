@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="350" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="350" rx="8" fill="#1e2122"/>
+  
+  <!-- Browser Window Frame -->
+  <rect x="10" y="10" width="480" height="330" rx="6" fill="#2d3035"/>
+  
+  <!-- Browser URL Bar -->
+  <rect x="20" y="20" width="460" height="30" rx="4" fill="#1a1c1e"/>
+  <circle cx="35" cy="35" r="5" fill="#ff605c"/>
+  <circle cx="55" cy="35" r="5" fill="#ffbd44"/>
+  <circle cx="75" cy="35" r="5" fill="#00ca4e"/>
+  <rect x="95" y="28" width="370" height="14" rx="7" fill="#38393d"/>
+  <text x="110" y="38" font-family="Arial" font-size="10" fill="#8c8c8c">http://192.168.0.1</text>
+  
+  <!-- Tenda Logo -->
+  <rect x="140" y="70" width="220" height="50" rx="4" fill="#1a1c1e"/>
+  <text x="185" y="105" font-family="Arial" font-weight="bold" font-size="24" fill="#0088cc">TENDA</text>
+  <text x="280" y="105" font-family="Arial" font-size="14" fill="#8c8c8c">WiFi</text>
+  
+  <!-- Login Form Container -->
+  <rect x="100" y="140" width="300" height="180" rx="8" fill="#38393d"/>
+  
+  <!-- Form Header -->
+  <rect x="100" y="140" width="300" height="40" rx="8" fill="#0088cc"/>
+  <text x="220" y="165" font-family="Arial" font-weight="bold" font-size="14" fill="#ffffff">Router Login</text>
+  
+  <!-- Username Input -->
+  <text x="120" y="205" font-family="Arial" font-size="12" fill="#cccccc">Username</text>
+  <rect x="120" y="215" width="260" height="30" rx="4" fill="#242628"/>
+  <text x="130" y="235" font-family="Arial" font-size="12" fill="#8c8c8c">admin</text>
+  
+  <!-- Password Input -->
+  <text x="120" y="265" font-family="Arial" font-size="12" fill="#cccccc">Password</text>
+  <rect x="120" y="275" width="260" height="30" rx="4" fill="#242628"/>
+  <text x="130" y="295" font-family="Arial" font-size="12" fill="#8c8c8c">••••••</text>
+  
+  <!-- Login Button -->
+  <rect x="230" y="320" width="80" height="30" rx="15" fill="#0088cc"/>
+  <text x="256" y="340" font-family="Arial" font-weight="bold" font-size="12" fill="#ffffff">Login</text>
+  
+  <!-- Language Selector -->
+  <text x="120" y="340" font-family="Arial" font-size="10" fill="#8c8c8c">Language:</text>
+  <text x="175" y="340" font-family="Arial" font-size="10" fill="#0088cc">English ▼</text>
+</svg>

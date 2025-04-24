@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Router Brands</title>
+    <meta name="description"
+        content="Find default router login information,Step-by-step guides for all major router brands like TP-Link, Netgear, D-Link and more.">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/theme-toggle.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/static/favicon.ico">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://your-domain.com/">
+
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">192.168.1.1 Admin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/router-brands.html">Router Brands</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            How-to Guides
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/how-to-change-your-wifi-password.html">Change WiFi
+                                    Password</a></li>
+                            <li><a class="dropdown-item" href="/how-to-setup-port-forwarding-on-your-router.html">Port
+                                    Forwarding</a></li>
+                            <li><a class="dropdown-item" href="/how-to-set-up-a-guest-wifi-network.html">Guest Network
+                                    Setup</a></li>
+                            <li><a class="dropdown-item"
+                                    href="/how-to-configure-parental-controls-on-your-router.html">Parental Controls</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ip-lookup.html">IP Lookup</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="themeDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-sun me-1"></i> Theme
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="themeDropdown">
+                            <li><a class="dropdown-item" href="#" id="light-mode"><i class="fas fa-sun me-2"></i>Light
+                                    Mode</a></li>
+                            <li><a class="dropdown-item" href="#" id="dark-mode"><i class="fas fa-moon me-2"></i>Dark
+                                    Mode</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (smaller for inner pages) -->
+    <section class="hero-section" style="padding: 3rem 0;">
+        <div class="container">
+            <h1>Router Login Guides</h1>
+            <p>Find default IP addresses, usernames, and passwords for all major router brands</p>
+        </div>
+    </section>
+
+    <main id="main-content" class="container my-5">
+        <!-- Search and Filter Section -->
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="router-search"
+                        placeholder="Search by IP, brand, or model...">
+                    <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <select class="form-select" id="brand-filter">
+                    <option value="">All Brands</option>
+                    <!-- This will be populated via JavaScript -->
+                </select>
+            </div>
+        </div>
+
+        <!-- Popular Router Brands Section -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Popular Router Brands</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Looking for a specific router brand? Visit our dedicated brand pages for detailed login
+                            guides:</p>
+                        <div class="row" id="brand-buttons">
+                            <!-- Brand buttons will be added dynamically via JavaScript -->
+                            <div class="col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="/tenda-router-login.html" class="btn btn-outline-primary w-100">Tenda</a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="/tp-link-router-login.html" class="btn btn-outline-primary w-100">TP-Link</a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="/netgear-router-login.html" class="btn btn-outline-primary w-100">Netgear</a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="/d-link-router-login.html" class="btn btn-outline-primary w-100">D-Link</a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="/asus-router-login.html" class="btn btn-outline-primary w-100">ASUS</a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="/linksys-router-login.html" class="btn btn-outline-primary w-100">Linksys</a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="/huawei-router-login.html" class="btn btn-outline-primary w-100">Huawei</a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="/cisco-router-login.html" class="btn btn-outline-primary w-100">Cisco</a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="/jiofiber-router-login.html" class="btn btn-outline-primary w-100">JioFiber</a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="/centurylink-router-login.html"
+                                    class="btn btn-outline-primary w-100">CenturyLink</a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="/mercusys-router-login.html" class="btn btn-outline-primary w-100">Mercusys</a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="/att-router-login.html" class="btn btn-outline-primary w-100">AT&T</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Router List -->
+        <section class="mb-5">
+            <h2 class="mb-4">Popular Router Login IPs</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-wifi fa-2x mb-3"></i>
+                            <h3 class="router-ip">192.168.1.1</h3>
+                            <p>Most common router IP address</p>
+                            <a href="/router-guides/192-168-1-1" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-wifi fa-2x mb-3"></i>
+                            <h3 class="router-ip">192.168.0.1</h3>
+                            <p>Second most common router IP</p>
+                            <a href="/router-guides/192-168-0-1" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-wifi fa-2x mb-3"></i>
+                            <h3 class="router-ip">10.0.0.1</h3>
+                            <p>Used by Apple and some ISPs</p>
+                            <a href="/router-guides/10-0-0-1" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-wifi fa-2x mb-3"></i>
+                            <h3 class="router-ip">192.168.2.1</h3>
+                            <p>Common for some Linksys routers</p>
+                            <a href="/router-guides/192-168-2-1" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Information Section -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">About Router Login Information</h2>
+                        <p>Most routers come with default settings that include a specific IP address (like 192.168.1.1)
+                            and login credentials for accessing the administration panel. Manufacturers set these
+                            defaults to make initial setup easier.</p>
+
+                        <h3>Why You Need Router Login Information</h3>
+                        <p>You need your router's login details to:</p>
+                        <ul>
+                            <li>Set up your internet connection</li>
+                            <li>Configure WiFi networks and passwords</li>
+                            <li>Implement security features</li>
+                            <li>Set up port forwarding for specific applications</li>
+                            <li>Update firmware</li>
+                            <li>Manage connected devices</li>
+                        </ul>
+
+                        <h3>Security Considerations</h3>
+                        <p>After accessing your router with default credentials, it's highly recommended to:</p>
+                        <ul>
+                            <li>Change the default admin password to a strong, unique password</li>
+                            <li>Set a strong WiFi password using WPA2 or WPA3 encryption</li>
+                            <li>Keep your router's firmware updated</li>
+                            <li>Disable remote management unless you specifically need it</li>
+                        </ul>
+
+                        <div class="alert alert-info">
+                            <strong>Note:</strong> If you've already configured your router with custom credentials and
+                            forgotten them, you may need to reset your router to factory defaults. This will erase all
+                            custom configurations.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Theme Toggle Floating Button -->
+    <button id="theme-toggle-float" class="theme-toggle-float btn">
+        <i class="fas fa-moon"></i>
+    </button>
+    <!-- Footer -->
+    <footer class="footer py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5 class="footer-heading">Router Login Guide</h5>
+                    <p class="footer-text">A comprehensive resource for router login information, networking guides, and
+                        troubleshooting tips.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/" class="footer-link">Home</a></li>
+                        <li><a href="/" class="footer-link">Router Login Guides</a></li>
+                        <li><a href="/" class="footer-link">IP Lookup Tool</a></li>
+                        <li><a href="/" class="footer-link">Troubleshooting Guides</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="footer-heading">Popular Routers IPs</h5>
+                    <ul class="list-unstyled popular-routers-list">
+                        <li><a href="/http://192.168.1.1/" class="footer-link">192.168.1.1</a></li>
+                        <li><a href="/http://192.168.0.1/" class="footer-link">192.168.0.1</a></li>
+                        <li><a href="/http://10.0.0.1/" class="footer-link">10.0.0.1</a></li>
+                        <li><a href="/http://192.168.2.1/" class="footer-link">192.168.2.1</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0 footer-text">&copy; 2025 Router Login Guide. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">
+                        <a href="/privacy-policy.html" class="footer-link me-2">Privacy Policy</a> |
+                        <a href="/contact-us.html" class="footer-link">Contact Us</a> |
+                        <a href="/terms-and-conditions.html" class="footer-link">Terms and Conditions</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Theme Toggle -->
+    <script src="/static/js/theme-toggle.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/router-guides.js"></script>
+</body>
+
+</html>

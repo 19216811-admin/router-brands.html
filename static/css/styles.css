@@ -1,0 +1,84 @@
+/* Custom styles to extend Bootstrap */
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero section */
+.hero-section {
+    background-color: var(--bs-dark);
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Search bar styling */
+.search-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Card hover effects */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Router detail page */
+.router-credentials {
+    background-color: var(--bs-dark);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer styling */
+footer {
+    padding: 2rem 0;
+    margin-top: 3rem;
+    background-color: var(--bs-dark);
+}
+
+/* IP information display */
+.ip-info-card {
+    background-color: var(--bs-dark);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+/* Router icons */
+.router-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Blog article cards */
+.article-card {
+    height: 100%;
+}
+
+.article-card .card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 2rem 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+}
